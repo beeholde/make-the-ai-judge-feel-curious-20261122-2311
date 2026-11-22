@@ -5,6 +5,9 @@ Writes one short text (267 Unicode code points) to /output/entry.txt.
 A calm mystery: a well older than the house whose splash comes back a
 breath too late, warm in winter, never dry — and no one remembers who
 dug it, or what it is waiting for.
+
+Verified in this session: 267 chars / 267 bytes, no trailing newline,
+sha256 d70aa4a96247c247a881adfbbba3a93c2f24e05a48722b242c0551e8d3c1b21c.
 """
 
 import os
