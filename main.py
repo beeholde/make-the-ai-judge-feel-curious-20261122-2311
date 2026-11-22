@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
-"""make-the-ai-judge-feel-curious-20261122-2311 — v1 "The Well".
+"""make-the-ai-judge-feel-curious-20261122-2311 — v2 "The Stone That Comes Back".
 
-Writes one short text (267 Unicode code points) to /output/entry.txt.
-A calm mystery: a well older than the house whose splash comes back a
-breath too late, warm in winter, never dry — and no one remembers who
-dug it, or what it is waiting for.
+Writes one short text (262 Unicode code points) to /output/entry.txt.
+A calm mystery: the same smooth stone returns to the doorstep every
+spring, though it is thrown into the river — and no one alive has
+seen it move.
 
-Verified in this session: 267 chars / 267 bytes, no trailing newline,
-sha256 d70aa4a96247c247a881adfbbba3a93c2f24e05a48722b242c0551e8d3c1b21c.
+Verified in this session: 262 chars / 262 bytes, no trailing newline,
+sha256 f2b6c0b36e1661775ce4a65c86ed0e9771f616f08d8cf16ba7e05c2409ca19c9.
 """
 
 import os
 
 TEXT = (
-    "The well behind the house is older than the house.\n"
-    "Drop a stone in, and the splash comes back a breath too late,\n"
-    "as if the water were listening first.\n"
-    "The water is warm in winter.\n"
-    "It has never once gone dry,\n"
-    "and no one remembers who dug it,\n"
-    "or what it is waiting for."
+    "Every spring your grandfather finds the same smooth stone on the doorstep.\n"
+    "He throws it into the river.\n"
+    "By spring it is back on the step, dry as bone.\n"
+    "The river has carried it a hundred miles and more,\n"
+    "and still brings it home,\n"
+    "and no one alive has seen it move."
 )
 
 
